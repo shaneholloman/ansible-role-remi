@@ -1,2 +1,3 @@
 ---
-- role: shaneholloman.repo-epel
+- name: shaneholloman.epel
+  src: https://github.com/shaneholloman/ansible-role-epel

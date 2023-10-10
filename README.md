@@ -1,12 +1,12 @@
 # Ansible Role: Remi Repository
 
-[![CI](https://github.com/shaneholloman-org/ansible-role-remi/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman-org/ansible-role-remi/actions/workflows/ci.yml)
+[![CI](https://github.com/shaneholloman/ansible-role-remi/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman/ansible-role-remi/actions/workflows/ci.yml)
 
 Installs [Remi's RPM repository](http://rpms.famillecollet.com/) for RHEL/CentOS.
 
 ## Requirements
 
-On RHEL 8 or newer, you should make sure to install or enable the EPEL repository. I recommend using the `shaneholloman.repo-epel` repository.
+On RHEL 8 or newer, you should make sure to install or enable the EPEL repository. I recommend using the `shaneholloman.epel` repository.
 
 ## Role Variables
 
@@ -36,5 +36,4 @@ MIT / BSD
 
 ## Author Information
 
-This role was created in 2014 by [Jeff Geerling](https://www.shaneholloman.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
-
+This role was created in 2023

@@ -42,9 +42,8 @@ jobs:
     strategy:
       matrix:
         distro:
-          - ubi8
           - rockylinux8
-          - centos7
+          - centos8
 
     steps:
       - name: Check out the codebase.
